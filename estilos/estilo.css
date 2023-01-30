@@ -26,25 +26,24 @@ main {
 }
 
 img {
-    border-radius: 200px;
-    width: 70px;
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.349);
+    box-sizing: border-box;
 }
 
-article {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    height: 600px;
-    width: 70px;
+section#redes-sociais {
+    position: relative;
+    top: 27%;
+    text-align: right;
+}
 
-    position: absolute;
-    top: 20%;
-    left: 95%;
+section#redes-sociais img:hover {
 
-    
-    
-    line-height: 0em;
-    padding-left: 0px;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.349);
+
 }
 
 iframe {
