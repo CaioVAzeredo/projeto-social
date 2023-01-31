@@ -46,17 +46,12 @@ section#redes-sociais img:hover {
 
 }
 
-iframe {
+#tela{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: blue;
-
-    width: 261px;
-    height: 461px;
-    border: 2px solid black;
-
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
 }
 
 section#telefone {
